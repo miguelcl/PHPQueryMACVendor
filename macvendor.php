@@ -4,7 +4,7 @@
 Autor: Miguel Angel Amador Lorca
 e-mail: joker at motd dot cl
 description: php script that return the mac address vendor 
---->
+-->
 
 <form action="mac.php" name="form1" method="post">
 <input name="mac" type="text">
@@ -44,7 +44,8 @@ description: php script that return the mac address vendor
 ?>
 <?php
 
-        $VAR = htmlspecialchars($_POST["mac"]);
+        $VAR1 = htmlspecialchars($_POST["mac"]);
+        $VAR = trim($VAR1," ");
         echo $VAR;
 
         if (isValid($VAR)){

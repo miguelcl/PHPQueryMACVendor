@@ -4,6 +4,7 @@
 Autor: Miguel Angel Amador Lorca
 e-mail: joker at motd dot cl
 description: php script that return the mac address vendor 
+
 -->
 
 <form action="mac.php" name="form1" method="post">
@@ -60,4 +61,4 @@ description: php script that return the mac address vendor
         echo "\n";
 ?>
 </body>
-</ html>
+</html>
